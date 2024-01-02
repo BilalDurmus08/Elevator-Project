@@ -34,12 +34,6 @@ public class ElevatorButton extends Button{
         }
         System.out.println("The elevator has been started to move that floor: " + super.certainFloor.parseInt() + ". The time for the process is: " + timeForProcessInSecond +" second(s).\n");
 
-     /*   switch (super.certainFloor.parseInt()) {
-            case 1 -> System.out.println("elevator.Elevator is moving to " + certainFloor.parseInt() + "'st floor.\n");
-            case 2 -> System.out.println("elevator.Elevator is moving to " + certainFloor.parseInt() + "'nd floor.\n");
-            case 3 -> System.out.println("elevator.Elevator is moving to " + certainFloor.parseInt() + "'rd floor.\n");
-            default -> System.out.println("elevator.Elevator is moving to " + certainFloor.parseInt() + "'th floor.\n");
-        }*/
 
         try {
             //Time for move to certain floor
